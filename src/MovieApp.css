@@ -1,0 +1,206 @@
+.card {
+  border-radius: 10px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 50px #ff616190;
+  transition: all 200ms ease-in;
+  transform: scale(1.03);
+}
+.card:hover .card-content {
+  display: flex;
+  top: 55%;
+}
+
+.card-img {
+  border-radius: 10px;
+  position: relative;
+  max-width: 300px;
+}
+
+.movie-image {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/1024px-No_image_available.svg.png);
+  position: relative;
+  max-width: 300px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.card-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  background-color: #a1aefa90;
+  background-size: cover;
+  color: white;
+  width: 100%;
+  height: 40%;
+}
+.card-title {
+  position: absolute;
+  padding-left: 2px;
+  text-transform: uppercase;
+}
+
+.card-date {
+  position: absolute;
+  padding-left: 2px;
+  top: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.card-rating {
+  position: absolute;
+  top: 3em;
+  right: 0em;
+  display: flex;
+  color: rgb(236, 236, 67);
+}
+
+.movie-app {
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+.movie-app-header {
+  display: flex;
+  justify-content: space-between;
+}
+.name-filter {
+  height: 50px;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.name-filter-text {
+  flex: 1;
+  border: 2px solid rgb(247, 181, 181);
+}
+.name-filter-button {
+  border: 2px solid rgb(248, 205, 205);
+  border-left: none;
+  background-color: transparent;
+  padding: 0 10px;
+}
+
+.movie-app-main {
+  margin-top: 20px;
+}
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.movie-card,
+.new-movie-card {
+  border: 2px solid rgb(241, 161, 161);
+  border-radius: 10px;
+  width: 300px;
+  height: 400px;
+  position: relative;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.new-movie-card {
+  font-size: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.movie-app {
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+.movie-app-header {
+  display: flex;
+  justify-content: space-between;
+}
+.name-filter {
+  height: 50px;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.name-filter-text {
+  flex: 1;
+  border: 2px solid black;
+}
+.name-filter-button {
+  border: 2px solid black;
+  border-left: none;
+  background-color: transparent;
+  padding: 0 10px;
+}
+.rating-filter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10px;
+}
+.rating-filter-text {
+  font-size: 1em;
+  color: rgb(245, 181, 181);
+}
+
+.rating-filter-stars {
+  justify-content: center;
+  color: rgba(236, 233, 31, 0.952);
+  font-size: 30px;
+}
+.movie-app-main {
+  margin-top: 20px;
+}
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.movie-card,
+.new-movie-card {
+  border-radius: 10px;
+  border: 2px solid black;
+  width: 300px;
+  height: 420px;
+  position: relative;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.movie-rating {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px 10px;
+  border: 2px solid rgb(230, 164, 164);
+  border-top: none;
+  border-right: none;
+  color: rgba(236, 233, 31, 0.952);
+}
+
+.movie-description {
+  border-top: 2px solid black;
+  text-align: center;
+  padding: 10px;
+}
+.new-movie-card {
+  font-size: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.trailer {
+  background: green;
+  font-size: 20px;
+  width: 70px;
+  height: 40px;
+  margin-left: 230px;
+}
